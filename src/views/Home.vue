@@ -41,6 +41,7 @@
 export default {
   data() {
     return {
+      bio: '',
       socialLinks: [
         {
           name: "Facebook",
