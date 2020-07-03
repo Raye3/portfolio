@@ -23,7 +23,9 @@
         <v-card outlined>
           <v-card-title class="blue--text" primary-title>About ME</v-card-title>
           <v-card-text>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim sequi veniam, laboriosam similique labore est quam voluptatem reprehenderit dolorem ullam explicabo, perferendis, facilis in eaque. Enim obcaecati voluptates excepturi nihil.</p>
+            <p>
+              {{bio}}
+            </p>
           </v-card-text>
           <v-card-title class="blue--text" primary-title>Interests</v-card-title>
           <v-card-text>
@@ -41,7 +43,7 @@
 export default {
   data() {
     return {
-      bio: '',
+      bio: 'English master student, and full-stack web developer, passionate about software engineering, project management, with a piece of solid knowledge concerning information technology as well as graphic design. And a various range of other interests',
       socialLinks: [
         {
           name: "Facebook",
