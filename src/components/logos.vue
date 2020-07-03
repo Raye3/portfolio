@@ -28,7 +28,6 @@ export default {
         { name : 'RO2A', path : require('../assets/portfolio/logos/ro2a.jpg') },
         { name : 'Swakon', path : require('../assets/portfolio/logos/swakon.jpg') },
         { name : 'Tima', path : require('../assets/portfolio/logos/tima.jpg') },
-        { name : 'Takalem', path : require('../assets/portfolio/logos/takalem.jpg') },
       ]
     }
   },

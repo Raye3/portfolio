@@ -42,10 +42,10 @@ export default {
     routes: [
       { path: "/", name: "Home" },
       //{ path: "/about", name: "about" },
-      { path: "/skills", name: "skills" },
-      { path: "/portfolio", name: "portfolio" },
-      { path: "/services", name: "services" },
-      { path: "/contact", name: "contact" }
+      { path: "/skills", name: "Skills" },
+      { path: "/portfolio", name: "Portfolio" },
+      { path: "/services", name: "Services" },
+      { path: "/contact", name: "Contact" }
     ]
   }),
   beforeCreate() {
